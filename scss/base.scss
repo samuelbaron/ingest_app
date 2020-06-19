@@ -1,0 +1,31 @@
+@import "config";
+
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: 'Exo 2', sans-serif;
+  line-height: 1.6;
+}
+
+button{
+  display: block;
+}
+
+a{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  width: 100vw;
+  height: 100vh;
+  background-color: $main-color;
+  background-image: url(../images/swirl.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

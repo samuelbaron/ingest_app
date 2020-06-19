@@ -1,0 +1,53 @@
+@import "config";
+
+@import "base";
+@import "buttons";
+
+.sets_container{
+  height: 80vh;
+  width: 60vw;
+  background-color: $main-color;
+  border-radius: 3em;
+  position: relative;
+
+
+  .container_header{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+  }
+  .sets_container_list{
+    display: flex;
+    justify-content: center;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li{
+        color: white;
+        font-size: 2em;
+      }
+
+      li:hover{
+        color: $text-hover-color;
+      }
+
+    }
+
+  }
+
+  .sets_container_buttons{
+
+    display: flex;
+    justify-content: center;
+
+    .new_list_button{
+      position: absolute;
+      bottom: 5vh;
+      margin-top: 5vh;
+    }
+
+  }
+
+}

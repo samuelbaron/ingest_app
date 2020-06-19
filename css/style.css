@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Exo 2", sans-serif;
+  line-height: 1.6;
+}
+
+button {
+  display: block;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1c29a0;
+  background-image: url(../images/swirl.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.7em 1em;
+  font-size: 1.5em;
+  background-color: #2a35cb;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.btn:hover {
+  background-color: #434bd6;
+}
+
+.sets_container {
+  height: 80vh;
+  width: 60vw;
+  background-color: #1c29a0;
+  border-radius: 3em;
+  position: relative;
+}
+.sets_container .container_header {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+.sets_container .sets_container_list {
+  display: flex;
+  justify-content: center;
+}
+.sets_container .sets_container_list ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sets_container .sets_container_list ul li {
+  color: white;
+  font-size: 2em;
+}
+.sets_container .sets_container_list ul li:hover {
+  color: #84c5ff;
+}
+.sets_container .sets_container_buttons {
+  display: flex;
+  justify-content: center;
+}
+.sets_container .sets_container_buttons .new_list_button {
+  position: absolute;
+  bottom: 5vh;
+  margin-top: 5vh;
+}
+
+/*# sourceMappingURL=style.css.map */
